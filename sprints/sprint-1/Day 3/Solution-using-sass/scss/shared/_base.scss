@@ -1,0 +1,13 @@
+@use '../shared/variables' as variable;
+
+body {
+    font-family: variable.$font-family;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

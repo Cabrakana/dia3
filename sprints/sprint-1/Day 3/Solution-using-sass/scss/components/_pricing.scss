@@ -1,0 +1,10 @@
+@use '../shared/variables' as variable;
+
+.pricing {
+    padding: variable.$spacing-section-padding;
+    padding-bottom: 10vw;
+    background-color: variable.$color-bg-light;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
